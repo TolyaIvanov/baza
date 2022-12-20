@@ -10,7 +10,7 @@
 } 
 ```
 ![lambda](https://senior.ua/storage/article/content/244f7fdd-8313-45a9-8cba-42ed385d309d.jpeg)
-# Как лямбда-функции работают внутри?
+### Как лямбда-функции работают внутри?
 ***
 ```c++
 [&i] ( ) { std::cout << i; }
