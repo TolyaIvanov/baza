@@ -9,7 +9,7 @@
    definition of method   
 } 
 ```
-![img.png](img.png)
+![img.png](images/img.png)
 # Как лямбда-функции работают внутри?
 ***
 ```c++
