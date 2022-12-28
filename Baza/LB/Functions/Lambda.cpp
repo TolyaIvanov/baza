@@ -44,5 +44,5 @@ void Lambda::baza()
         return num % 2 == 0;
     });
 
-    std::cout << "There are " << evenCount << " even numbers.";
+    std::cout << "There are " << evenCount << " even numbers." << std::endl;
 }

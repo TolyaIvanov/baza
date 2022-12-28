@@ -6,15 +6,17 @@ Overloading::Overloading(int sec)
     seconds = sec;
 }
 
-
-
-
 void Overloading::base()
 {
     Overloading c1(20);
     Overloading c2(10);
     Overloading c3 = c1 + c2;
     c3.display();
+    c3++;
+    c3.display();
+    ++c3;
+    c3.display();
+
 }
 
 void Overloading::add(int a, int b)
