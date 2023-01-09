@@ -16,7 +16,6 @@ void Overloading::base()
     c3.display();
     ++c3;
     c3.display();
-
 }
 
 void Overloading::add(int a, int b)
@@ -32,7 +31,6 @@ void Overloading::add(double a, double b)
 void Overloading::display()
 {
     std::cout << seconds << " seconds" << std::endl;
-
 }
 
 /*
